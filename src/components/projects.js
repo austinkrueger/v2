@@ -31,6 +31,13 @@ function Projects() {
             </p>
           </a>
         </article>
+        <article className='transition md:group-hover:opacity-50 md:hover:opacity-important rounded bg-zenith md:hover:scale-11/10x my-8'>
+          <a className='block px-40 py-24'>
+            <p className='text-xs my-10 font-bold tracking-widest uppercase'>
+              Load More
+            </p>
+          </a>
+        </article>
       </div>
     </div>
   );

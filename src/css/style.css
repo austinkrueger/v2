@@ -4,6 +4,11 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
+body {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
 .highlight-link,
 .nav-link {
   text-decoration: none;
@@ -32,7 +37,8 @@
   color: white;
 }
 
-body {
-  background-color: #fafafa;
-  overflow-x: hidden;
+.headshot-image {
+  height: 180px;
+  clip-path: circle(60px at center);
+  border: 1px solid #dbdbdb;
 }

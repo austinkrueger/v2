@@ -5,10 +5,10 @@ function Tagline() {
       <h1 className='text-2xl font-bold leading-tight lg:text-3xl lg:leading-none'>
         Hello there!{' '}
         <span role='img' aria-label='waving-hand'>
-          👋🏻
+          👋
         </span>
         <br />
-        I&apos;m Austin Krueger.
+        I&apos;m Austin.
       </h1>
       <div className='leading-loose'>
         <p className='mt-32'>
