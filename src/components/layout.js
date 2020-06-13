@@ -4,11 +4,9 @@ import React from 'react';
 function Layout({ children }) {
   return (
     <div>
-      <main className='overflow-x-hidden'>
-        <div className='flex flex-col w-screen mx-auto font-sans text-base max-w-1440 md:flex-row'>
-          {children}
-        </div>
-      </main>
+      <div className='relative flex flex-col w-screen mx-auto font-sans text-base max-w-1440 md:flex-row'>
+        {children}
+      </div>
     </div>
   );
 }

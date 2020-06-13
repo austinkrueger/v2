@@ -31,3 +31,8 @@
   box-shadow: inset 0 -33px 0 0 #7b28da;
   color: white;
 }
+
+body {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
