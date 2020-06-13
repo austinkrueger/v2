@@ -6,7 +6,7 @@ function Projects() {
         Projects
       </h2>
       <div className='-my-8 group pt-32 pb-40 md:py-0'>
-        <article className='transition md:group-hover:opacity-50 md:hover:opacity-important bg-zenith md:hover:scale-11/10x my-8'>
+        <article className='transition md:group-hover:opacity-50 md:hover:opacity-important rounded bg-zenith md:hover:scale-11/10x my-8'>
           <a className='block p-40'>
             <p className='text-xs font-bold tracking-widest uppercase'>
               JavaScript
@@ -17,7 +17,7 @@ function Projects() {
             <p className='mt-8'>An item in the list of my featured projects.</p>
           </a>
         </article>
-        <article className='transition md:group-hover:opacity-50 md:hover:opacity-important bg-zenith md:hover:scale-11/10x my-8'>
+        <article className='transition md:group-hover:opacity-50 md:hover:opacity-important rounded bg-zenith md:hover:scale-11/10x my-8'>
           <a className='block p-40'>
             <p className='text-xs font-bold tracking-widest uppercase'>
               Python
