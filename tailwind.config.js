@@ -82,25 +82,25 @@ module.exports = {
         '.-shift-y-96': {
           transform: `translateY(-${spacing['96']})`,
         },
-        '.gradient-y-transparent-night': {
+        '.gradient-y-transparent-nearblack': {
           background: `linear-gradient(to bottom, rgba(${hexToRgb(
-            colors.night
-          ).join(', ')}, 0), ${colors.night})`,
+            colors.nearblack
+          ).join(', ')}, 0), ${colors.nearblack})`,
         },
-        '.gradient-y-transparent-dusk': {
+        '.gradient-y-transparent-darkgrey': {
           background: `linear-gradient(to bottom, rgba(${hexToRgb(
-            colors.dusk
-          ).join(', ')}, 0), ${colors.dusk})`,
+            colors.darkgrey
+          ).join(', ')}, 0), ${colors.darkgrey})`,
         },
-        '.gradient-y-night-transparent': {
+        '.gradient-y-nearblack-transparent': {
           background: `linear-gradient(to top, rgba(${hexToRgb(
-            colors.night
-          ).join(', ')}, 0), ${colors.night})`,
+            colors.nearblack
+          ).join(', ')}, 0), ${colors.nearblack})`,
         },
-        '.gradient-y-dusk-transparent': {
+        '.gradient-y-darkgrey-transparent': {
           background: `linear-gradient(to top, rgba(${hexToRgb(
-            colors.dusk
-          ).join(', ')}, 0), ${colors.dusk})`,
+            colors.darkgrey
+          ).join(', ')}, 0), ${colors.darkgrey})`,
         },
       };
 

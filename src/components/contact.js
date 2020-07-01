@@ -7,7 +7,7 @@ function Contact() {
         Contact
       </h2>
       <div className='-my-8 group pt-32 pb-40 md:py-0'>
-        <article className='rounded bg-zenith my-8'>
+        <article className='rounded bg-white my-8'>
           <div className='block p-40'>
             <div className='flex items-center'>
               <img src={headshot} className='headshot-image' />
@@ -17,7 +17,7 @@ function Contact() {
             </div>
             <span className='my-16 text-sm block leading-loose'>
               Thank you for taking the time to look at my personal site! I had a
-              difficult time deciding how I wanted it too look, and eventually
+              difficult time deciding how I wanted it to look, and eventually
               came to the conclusion that I shouldn&apos;t reinvent the wheel.
             </span>
             <span className='my-16 text-sm block leading-loose'>

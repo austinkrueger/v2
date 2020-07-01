@@ -38,8 +38,8 @@ function Tagline() {
             className='highlight-link'>
             Python
           </a>
-          , I&apos;ve been writing more tests and trying new languages and
-          frameworks.
+          , I&apos;ve been learning more about testing tools and trying new
+          languages and frameworks.
         </p>
       </div>
     </div>

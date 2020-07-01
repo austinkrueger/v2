@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "portfolio.v2",
+  "description": "Personal Site on Gatsby",
   "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Austin Krueger",
   "dependencies": {
     "gatsby": "2.23.3",
     "gatsby-plugin-manifest": "2.4.11",
@@ -10,6 +10,8 @@
     "gatsby-plugin-postcss": "2.3.4",
     "gatsby-plugin-react-helmet": "3.3.4",
     "gatsby-plugin-sharp": "2.6.11",
+    "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-transformer-json": "^2.4.7",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
