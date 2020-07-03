@@ -3,7 +3,7 @@ const tailwindConfig = require('./tailwind.config.js');
 module.exports = {
   siteMetadata: {
     title: `Austin Krueger`,
-    description: `Austin Krueger`,
+    description: `Version 2 of my personal portfolio site`,
     author: `Austin Krueger`,
   },
   plugins: [
@@ -22,13 +22,10 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-transformer-json`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
-        plugins: [`gatsby-transformer-json`],
+        trackingId: 'UA-171628040-1',
       },
     },
   ],
