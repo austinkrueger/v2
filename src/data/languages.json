@@ -1,27 +1,27 @@
 [
   {
-    "name": "Python",
-    "icon": "",
+    "name": "JavaScript",
+    "icon": "../javascript.svg",
     "link": ""
   },
   {
     "name": "Python",
-    "icon": "",
+    "icon": "../python-5.svg",
     "link": ""
   },
   {
-    "name": "Python",
-    "icon": "",
+    "name": "TypeScript",
+    "icon": "../typescript.svg",
     "link": ""
   },
   {
-    "name": "Python",
-    "icon": "",
+    "name": "Java",
+    "icon": "../java-14.svg",
     "link": ""
   },
   {
-    "name": "Python",
-    "icon": "",
+    "name": "Elixir",
+    "icon": "../elixir-lang-icon.svg",
     "link": ""
   }
 ]

@@ -1,27 +1,82 @@
 [
   {
-    "name": "Python",
-    "icon": "",
-    "link": ""
+    "name": "Magic playlist",
+    "main_language": "TypeScript",
+    "tool_icons": [
+      { "name": "TypeScript", "icon": "../typescript.svg" },
+      { "name": "Angular", "icon": "../angular-icon-1.svg" },
+      { "name": "Express", "icon": "../expressjs-icon.svg" }
+    ],
+    "repo_url": "https://github.com/austinkrueger/magic-playlist",
+    "site_url": "",
+    "description": "Spotify Playlist Generator in Angular and Express"
   },
   {
-    "name": "Python",
-    "icon": "",
-    "link": ""
+    "name": "CSS Alphabetize",
+    "main_language": "TypeScript",
+    "tool_icons": [{ "name": "TypeScript", "icon": "../typescript.svg" }],
+    "repo_url": "https://github.com/austinkrueger/css-alphabetize",
+    "site_url": "",
+    "description": "VSCode extension for sorting CSS rules alphabetically"
   },
   {
-    "name": "Python",
-    "icon": "",
-    "link": ""
+    "name": "CSS Grid Visualizer",
+    "main_language": "JavaScript",
+    "tool_icons": [
+      { "name": "JavaScript", "icon": "../javascript.svg" },
+      { "name": "React", "icon": "../react-2.svg" }
+    ],
+    "repo_url": "https://github.com/austinkrueger/css-grid-vis",
+    "site_url": "https://austinkrueger.github.io/css-grid-vis",
+    "description": "css-grid creator and viewer in React"
   },
   {
-    "name": "Python",
-    "icon": "",
-    "link": ""
+    "name": "Captain's Log",
+    "main_language": "Python",
+    "tool_icons": [
+      { "name": "Python", "icon": "../python-5.svg" },
+      { "name": "Django", "icon": "../django.svg" }
+    ],
+    "repo_url": "https://github.com/austinkrueger/captains-log",
+    "site_url": "",
+    "description": "Google Lighthouse Report History Viewer in Django"
   },
   {
-    "name": "Python",
-    "icon": "",
-    "link": ""
+    "name": "v1 Portfolio",
+    "main_language": "JavaScript",
+    "tool_icons": [
+      { "name": "JavaScript", "icon": "../javascript.svg" },
+      { "name": "React", "icon": "../react-2.svg" }
+    ],
+    "repo_url": "https://github.com/austinkrueger/austinkrueger.github.io",
+    "site_url": "https://austin.krueger.github.io",
+    "description": "Version 1 of my portfolio in React"
+  },
+  {
+    "name": "Meowtube",
+    "main_language": "Elixir",
+    "tool_icons": [{ "name": "Elixir", "icon": "../elixir-lang-icon.svg" }],
+    "repo_url": "https://github.com/austinkrueger/meowtube",
+    "site_url": "",
+    "description": "TDD Practice app in Phoenix Elixir with Google/YouTube API integration"
+  },
+  {
+    "name": "Jasmine Randomization",
+    "main_language": "TypeScript",
+    "tool_icons": [
+      { "name": "TypeScript", "icon": "../typescript.svg" },
+      { "name": "Angular", "icon": "../angular-icon-1.svg" }
+    ],
+    "repo_url": "https://github.com/austinkrueger/learning-jasmine",
+    "site_url": "https://austinkrueger.github.io/learning-jasmine",
+    "description": "Angular Jasmine TDD learning and Pokedex API randomization"
+  },
+  {
+    "name": "Gravel",
+    "main_language": "Elixir",
+    "tool_icons": [{ "name": "Elixir", "icon": "../elixir-lang-icon.svg" }],
+    "repo_url": "https://github.com/austinkrueger/gravel",
+    "site_url": "",
+    "description": "Link Shortener written in Elixir and the Phoenix web framework"
   }
 ]

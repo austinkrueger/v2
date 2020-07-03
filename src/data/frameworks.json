@@ -1,27 +1,32 @@
 [
   {
     "name": "Angular",
-    "icon": "",
-    "link": ""
+    "icon": "../angular-icon-1.svg",
+    "link": "https://angular.io"
   },
   {
     "name": "React",
-    "icon": "",
+    "icon": "../react-2.svg",
+    "link": "https://reactjs.org"
+  },
+  {
+    "name": "RxJS",
+    "icon": "../rxjs-1.svg",
     "link": ""
   },
   {
-    "name": "Python",
-    "icon": "",
+    "name": "Express",
+    "icon": "../expressjs-icon.svg",
     "link": ""
   },
   {
-    "name": "Python",
-    "icon": "",
+    "name": "Django",
+    "icon": "../django.svg",
     "link": ""
   },
   {
-    "name": "Python",
-    "icon": "",
+    "name": "Elasticsearch",
+    "icon": "../elasticsearch.svg",
     "link": ""
   }
 ]

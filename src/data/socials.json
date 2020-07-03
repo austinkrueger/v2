@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Messenger",
+    "icon": "../facebook-messenger-3.svg",
+    "link": "https://m.me/akruegr"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "../linkedin-icon-2.svg",
+    "link": "https://www.linkedin.com/in/austin-krueger/"
+  },
+  {
+    "name": "Email",
+    "icon": "../email.svg",
+    "link": "mailto:akruegr@gmail.com"
+  }
+]
