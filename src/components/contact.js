@@ -1,9 +1,11 @@
 import React from 'react';
 import * as headshot from '../images/headshot.jpg';
+import socials from '../data/socials.json';
+
 function Contact() {
   return (
     <div id='contact' className='md:pt-88'>
-      <h2 className='sticky top-0 z-40 pt-24 text-sm font-bold tracking-widest uppercase md:sr-only'>
+      <h2 className='top-0 z-40 pt-24 text-sm font-bold tracking-widest uppercase md:sr-only'>
         Contact
       </h2>
       <div className='-my-8 group pt-32 pb-40 md:py-0'>
@@ -22,17 +24,38 @@ function Contact() {
             </span>
             <span className='my-16 text-sm block leading-loose'>
               The personal sites of both{' '}
-              <a className='highlight-link'>Sarah Dayan</a> and{' '}
-              <a className='highlight-link'>Brittany Chiang</a> were huge
-              sources of inspiration, so please check those out as well.
+              <a className='highlight-link' href='https://sarahdayan.com'>
+                Sarah Dayan
+              </a>{' '}
+              and{' '}
+              <a className='highlight-link' href='https://brittanychiang.com'>
+                Brittany Chiang
+              </a>{' '}
+              were huge sources of inspiration, so please check those out as
+              well.
             </span>
             <h4 className='my-16 text-base font-semibold'>
               Here are some ways you can contact me:
             </h4>
-            <div className='flex justify-around items-center p-24'>
-              <a>LinkedIn</a>
-              <a>Messenger</a>
-              <a>Email</a>
+            <div className='flex flex-wrap justify-center -my-4 md:-m-4 group pt-32 pb-40 md:py-0'>
+              {socials.map((social, index) => {
+                return (
+                  <article
+                    className='flex-none w-full my-4 md:m-4 md:w-160 md:min-h-64 lg:w-160 lg:min-h-64'
+                    key={`social_item_${index}`}
+                    onClick={() => window.open(social.link, '_blank')}>
+                    <div className='flex justify-center items-center rounded bg-white w-full h-full p-8 min-h-inherit md:group-hover:opacity-50 md:hover:opacity-important transition'>
+                      <div className='flex justify-center'>
+                        <img
+                          src={social.icon}
+                          className='w-16 h-16 mr-16 mt-2'
+                        />
+                        <p className='card-item-text'>{social.name}</p>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
           </div>
         </article>
