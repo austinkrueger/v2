@@ -16,9 +16,9 @@ function Footer() {
         </li>
         <li className='mx-16'>
           <a
-            href='/resume.pdf'
+            href={'../resume.pdf'}
             target='_blank'
-            rel='noopener noreferrer'
+            rel='noopener noreferrer nofollow'
             className='flex items-center'>
             <span className='mt-px'>Resume</span>
           </a>
