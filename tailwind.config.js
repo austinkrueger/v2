@@ -58,18 +58,6 @@ module.exports = {
         '.transition': {
           transition: 'all 0.2s ease-in-out',
         },
-        '.scale-3\\/2x': {
-          transform: 'scale(1.5)',
-        },
-        '.scale-6\\/5x': {
-          transform: 'scale(1.2)',
-        },
-        '.scale-11\\/10x': {
-          transform: 'scale(1.1)',
-        },
-        '.scale-2x': {
-          transform: 'scale(2)',
-        },
         '.shift-0': {
           transform: `translateY(${spacing['0']})`,
         },
@@ -82,20 +70,20 @@ module.exports = {
         '.-shift-y-96': {
           transform: `translateY(-${spacing['96']})`,
         },
-        '.gradient-y-transparent-nearblack': {
+        '.gradient-y-transparent-lightgrey': {
           background: `linear-gradient(to bottom, rgba(${hexToRgb(
-            colors.nearblack
-          ).join(', ')}, 0), ${colors.nearblack})`,
+            colors.lightgrey
+          ).join(', ')}, 0), ${colors.lightgrey})`,
         },
         '.gradient-y-transparent-darkgrey': {
           background: `linear-gradient(to bottom, rgba(${hexToRgb(
             colors.darkgrey
           ).join(', ')}, 0), ${colors.darkgrey})`,
         },
-        '.gradient-y-nearblack-transparent': {
+        '.gradient-y-lightgrey-transparent': {
           background: `linear-gradient(to top, rgba(${hexToRgb(
-            colors.nearblack
-          ).join(', ')}, 0), ${colors.nearblack})`,
+            colors.lightgrey
+          ).join(', ')}, 0), ${colors.lightgrey})`,
         },
         '.gradient-y-darkgrey-transparent': {
           background: `linear-gradient(to top, rgba(${hexToRgb(

@@ -42,3 +42,25 @@ body {
   clip-path: circle(60px at center);
   border: 1px solid #dbdbdb;
 }
+
+article p.card-item-text,
+article h3.card-item-text {
+  cursor: default;
+}
+
+article.load-more-item {
+  cursor: pointer;
+}
+
+.fadeIn {
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
