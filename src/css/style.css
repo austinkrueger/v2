@@ -64,3 +64,11 @@ article.load-more-item {
     opacity: 1;
   }
 }
+
+@media (max-width: 769px) {
+  .headshot-image {
+    height: 120px;
+    clip-path: circle(40px at center);
+    border: 1px solid #dbdbdb;
+  }
+}
