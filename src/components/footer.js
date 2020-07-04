@@ -11,7 +11,7 @@ function Footer() {
             rel='noopener noreferrer'
             className='flex items-center'>
             <img src={github} className='w-16 h-16 mr-16 fill-current' />
-            <span className='mt-px'>GitHub</span>
+            <span className='mt-1'>GitHub</span>
           </a>
         </li>
         <li className='mx-16'>
@@ -20,7 +20,7 @@ function Footer() {
             target='_blank'
             rel='noopener noreferrer nofollow'
             className='flex items-center'>
-            <span className='mt-px'>Resume</span>
+            <span className='mt-1'>Resume</span>
           </a>
         </li>
       </ul>
