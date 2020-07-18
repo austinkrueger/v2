@@ -1,6 +1,6 @@
 [
   {
-    "name": "Magic playlist",
+    "name": "Magic Playlist",
     "main_language": "TypeScript",
     "tool_icons": [
       { "name": "TypeScript", "icon": "../typescript.svg" },
@@ -8,7 +8,7 @@
       { "name": "Express", "icon": "../expressjs-icon.svg" }
     ],
     "repo_url": "https://github.com/austinkrueger/magic-playlist",
-    "site_url": "",
+    "site_url": "https://magic-playlist.herokuapp.com",
     "description": "Spotify Playlist Generator in Angular and Express"
   },
   {
