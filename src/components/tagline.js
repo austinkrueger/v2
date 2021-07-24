@@ -15,11 +15,11 @@ function Tagline() {
           I&apos;m a Software Engineer currently working full-stack on web
           applications at{' '}
           <a
-            href='https://www.wildcardcorp.com'
+            href='https://www.expertinstitute.com'
             target='_blank'
             rel='noopener noreferrer'
             className='highlight-link'>
-            Wildcard
+            Expert Institute
           </a>
           . I specialize in creating user-focused interfaces and speedy APIs.
           Although my expertise is in{' '}
